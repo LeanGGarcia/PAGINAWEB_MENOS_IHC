@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalles de Pago</title>
+  <link rel="icon" type="image/x-icon" href="imagenes/LogoMenos/LogoMenos.png" />
+  <link rel="stylesheet" href="estilos/Pprincipal.css" />
+  <link rel="stylesheet" href="estilos/pago.css">
+</head>
+<body>
+  <header>
+    <div class="container-hero">
+      <div class="container hero">
+        <div class="container-logo">
+          <h1 class="logo"><a href="#">MENOS</a></h1>
+                   <h2>SUPERMARKETS</h2>
+          </div>
+            
+        <div class="container-user">
+                  <i id="basketIcon" class="fa-solid fa-basket-shopping"></i>
+                  <i id="userIcon" class="fa-solid fa-user"></i>
+
+           <div id="basketModal" class="modal">
+            <div class="modal-content">
+              <span class="close" data-modal="basketModal">&times;</span>
+              <h2>Carrito</h2>
+              <img class="img-profile" src="imagenes/Productos/coronax6.png" alt="Cerveza corana x6" />
+            </div>
+           </div>
+            <div class="my-account">
+              <a href="#" style="color: black; text-decoration: none;">Mi cuenta</a>
+              <!-- Menú desplegable -->
+              <div class="dropdown-content">
+                <a href="Iniciar.html">Iniciar Sesión</a>
+                <a href="Registro.html">Registrarse</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--BARRA DE NAVEGACION-->
+    <div class="container-navbar">
+      <nav class="navbar container">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="menu">
+          <li><a href="PaginaPrincipal.html">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="metodo-pago">
+    <div class="wrapper">
+      <div class="contenedor">
+        <form action="">
+          <h1>
+            <i class="fas fa-shipping-fast"></i>Detalles de Cliente
+          </h1>
+          <div class="name">
+            <div>
+              <label for="f-name">Nombre</label>
+              <input type="text" name="f-name">
+            </div>
+            <div>
+              <label for="l-name">Apelido</label>
+              <input type="text" name="l-name">
+            </div>
+          </div>
+          <div class="street">
+            <label for="name">Direccion</label>
+            <input type="text" name="address">
+          </div>
+          <div class="address-info">
+            <div>
+              <label for="city">Distrito</label>
+              <input type="text" name="city">
+            </div>
+            <div>
+              <label for="state">Casa o Edifico</label>
+              <input type="text" name="state">
+            </div>
+            <div>
+              <label for="zip">Piso</label>
+              <input type="text" name="zip">
+            </div>
+          </div>
+          <h1>
+            <i class="far fa-credit-card"></i> Metodo de Pago
+          </h1>
+          <div class="cc-num">
+              <label for="card-num">Pago efectivo</label>
+              <input type="text" name="card-num">
+            </div>
+          <div class="cc-num">
+            <label for="card-num">Numero de Tarjeta Credito</label>
+            <input type="text" name="card-num">
+          </div>
+          <div class="cc-info">
+            <div>
+              <label for="card-num">Exp</label>
+              <input type="text" name="expire">
+            </div>
+            <div>
+              <label for="card-num">CCV</label>
+              <input type="text" name="security">
+            </div>
+          </div>
+          <div class="btns">
+            <button>PAGAR</button>
+            <button>VOLVER AL INICIO</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</body>
+</html>

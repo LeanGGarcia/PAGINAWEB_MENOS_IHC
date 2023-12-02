@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--primary-color: #96c77a;
+	--background-color: #f9f5f0;
+	--dark-color: #151515;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Poppins', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/************************************/
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+.heading-1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 3rem;
+}
+/*******************************/
+.container-hero {
+	background-color: var(--background-color);
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 0;
+}
+
+.container-logo {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.container-logo i {
+	font-size: 3rem;
+}
+
+.container-logo h1 a {
+	text-decoration: none;
+	color: #000;
+	font-size: 3rem;
+	text-transform: capitalize;
+	letter-spacing: -1px;
+}
+button#btn-reporte {
+    /*width: 715%;*/
+    overflow: hidden;
+    height: 45px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+/* Estilos previos se mantienen */
+
+#filters {
+    margin: 1px;
+    display: flex;
+}
+
+#filters label, #filters input, #filters button {
+    margin-left: 15px;
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+    border-radius: 5px;
+    border: none;
+}
+.filtar-reporte input[type="date"] {
+    padding: 2.5px; /* Ajusta el valor según el espacio que desees */
+}
+/*****************BUSCAR***************/
+.search-form {
+	position: relative;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+.search-form input {
+	outline: none;
+	border: none;
+	font-size: 1.4rem;
+	padding: 0 2rem;
+	cursor: pointer;
+    background-color: transparent;
+
+}
+.search-form input::-webkit-search-cancel-button {
+	appearance: none;
+}
+.btn-search {
+    background-color: transparent;
+    border: none; /* Para quitar cualquier borde que pueda tener */
+}
+
+.btn-filter{
+    background-color: transparent;
+}
+/************TARJETAS :)**************/
+
+div#tarjetas\+iconos {
+    font-family: Roboto;
+}
+.content{
+    width: 40%;
+    margin: 0 auto;
+}
+canvas{
+    max-width: 100%;
+}
+/***********ventas mes***************/
+
+#card-ventasmes, #card-incrementventas,#card-totalClientes,#card-totalcomprasreali {
+    background-color: rgb(196, 240, 196); /* Puedes cambiar "green" por el color que prefieras */
+}
+/* Agrega este estilo a tu archivo de estilos CSS (reportes.css) */
+
+header {
+    margin-bottom: 20px; /* Puedes ajustar el valor según tu preferencia */
+  }
+.main-content{
+    margin-bottom: 20px;
+}
+.Volver {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  button.Volver {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+  }

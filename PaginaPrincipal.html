@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>MENOS</title>
+		<link rel="icon" type="image/x-icon" href="imagenes/LogoMenos/LogoMenos.png" />
+		<link rel="stylesheet" href="estilos/Pprincipal.css" />
+	</head>
+  <!--PARTE DE ARRIBA NAME - USER Y CARRITO-->
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="container-logo">
+						<h1 class="logo"><a href="#">MENOS</a></h1>
+              	 		<h2>SUPERMARKETS</h2>
+				  	</div>
+             		<div>
+               			<i class="fa-solid fa-bars"></i>
+               			<h3>MENÚ</h3>
+              		</div>
+              
+              		<form class="search-form">
+                		<input type="search" placeholder="Buscar..." />
+               			<button class="btn-search">
+                		  <i class="fa-solid fa-magnifying-glass"></i>
+               			</button>
+             		 </form>
+
+					<div class="container-user">
+                		<i id="basketIcon" class="fa-solid fa-basket-shopping"></i>
+                		<i id="userIcon" class="fa-solid fa-user"></i>
+
+						 <div id="basketModal" class="modal">
+							<div class="modal-content">
+							  <span class="close" data-modal="basketModal">&times;</span>
+							  <h2>Carrito</h2>
+							  <img class="img-profile" src="imagenes/Productos/coronax6.png" alt="Cerveza corana x6" />
+								<a href="pago.html"><button>Confirmar</button></a>
+							</div>
+						 </div>
+							<div class="my-account">
+								<a href="#" style="color: black; text-decoration: none;">Mi cuenta</a>
+								<!-- Menú desplegable -->
+								<div class="dropdown-content">
+									<a href="Iniciar.html">Iniciar Sesión</a>
+									<a href="Registro.html">Registrarse</a>
+									<a href="Inventario.html">Inventario</a>
+									<a href="reporte.html">Reporte</a>
+								</div>
+							</div>
+					</div>
+
+						</div>
+               		</div>
+			   </div>
+			</div>
+		</div>
+      <!--BARRA DE NAVEGACION-->
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="PaginaPrincipal.html">Inicio</a></li>
+						<li><a href="#">Nosotros</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+      
+		<main class="main-content">
+
+			<section class="container products">
+			  <h1 class="heading-1">Ofertas del día</h1>
+
+				<div class="container-options">
+					<span class="active">Destacados</span>
+					<span>Más recientes</span>
+					<span>Mejores Vendidos</span>
+				</div>
+
+				<div class="container-products">
+
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="imagenes/Productos/Corona3.png" alt="Cerveza corana x6" />
+							<span class="discount">-8%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Corona Extra Botella 6 x 330ml</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">S/28.80 <span>S/36.00</span></p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="imagenes/Productos/pringles.png"
+								alt="Pringles papas originales"
+							/>
+							<span class="discount">-4%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Papas Pringles Original 124g</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">S/9.50 <span>S/9.90</span></p>
+						</div>
+					</div>
+					<!-- 3 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="imagenes/Productos/InkaChipsJalapeño.png"
+								alt="Inka Chips Jalapeño"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>Papa en Hojuelas Inka Chips Jalapeño 135g</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">S/8.00</p>
+						</div>
+					</div>
+					<!-- 4 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="imagenes/Productos/yogurtGloriaGriego.png" alt="Yogurt Gloria Griego" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Yogurt Gloria Griego con Miel 800g</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">S/6.20</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+				<div class="container-products">
+
+		 <!--banner de abajo  -->
+
+			<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Av. Alfredo Mendiola 6062, Los Olivos 15306
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>EmaiL: Menos@support.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Atención al cliente</p>
+						<ul>
+							<li><a href="#">Tutorial de Comprar</a></li>
+							<li><a href="#">Horarios de atencion telefonico</a></li>
+							<li><a href="#">Preguntas frecuentes</a></li>
+							<li><a href="#">comprobante electronico</a></li>
+						</ul>
+					</div>
+				</div>
+      
+				<div class="copyright">
+            <p>
+              Menos S.A.C todo los derechos desde &copy; 2023
+            </p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+		<script src="javaScript/java.js"></script>
+	</body>
+</html>
